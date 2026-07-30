@@ -23,9 +23,77 @@ Here are two different scenarios:
 
 We use the same logistic equations for the prey and predator as like in previous simulators. The prey dynamics is regulated by the equation:
 
+
 <p align="center">
 <img src="images/t1.png" title="" />
 </p>
  
 &nbsp;
 
+Likewise, for the predator the below equation is used:
+
+
+<p align="center">
+<img src="images/t2.png" title="" />
+</p>
+ 
+&nbsp;
+
+Wherein, **r** refers to rate of growth,
+
+ 
+
+**N1** is the initial population density of prey,
+
+ 
+
+**N2** is the initial population density of predator,
+
+ 
+
+**K** is the carrying capacity of the prey,
+
+ 
+
+**a** is the number of encounters resulted in kill,
+
+ 
+
+**b** is the amount of prey converted to predator and
+
+ 
+
+**d** is the death rate of the predator.
+
+&nbsp;
+
+Using these equations for prey and predator we simulate the condition wherein the predator does not become satiated. For predator that does not become satiated no modifications are required in the classical logistic equations for predator and prey.
+
+ 
+
+While for the predator that does become satiated, they do require modification and addition of extra parameters to the prey and predator logistic equations. The logistic prey equation in this case looks in the following way:
+
+
+<p align="center">
+<img src="images/t3.png" title="" />
+</p>
+ 
+&nbsp;
+
+In the above equation, there’s an additional parameter called “c” was added which is called the satiation value for the predator. The parameter c is set by the user in the online simulator using a slider bar provided. ‘Theta’ refers to the spatial distribution of the individuals within an environment.
+
+
+The modified logistic predator equation in this case looks in the following way:
+
+
+<p align="center">
+<img src="images/t4.png" title="" />
+</p>
+ 
+&nbsp;
+
+By this time you should be quite aware of all the parameter definitions. Using these two modified logistic equations for predator and prey, we can simulate the condition wherein the predator does become satiated.
+
+ 
+
+Try changing the carrying capacity for the prey and observe the simulated graphs and note down the differences for the predator that does not become satiated and the predator that does become satiated.
