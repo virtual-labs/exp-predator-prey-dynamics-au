@@ -1,38 +1,76 @@
+
 {
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "In a continuous population growth model, population growth is primarily determined by:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Carrying capacity (K)",
+        "b": "Instantaneous per capita growth rate (r)",
+        "c": "Competition coefficient (α)",
+        "d": "Colonization rate (c)"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+ 
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },   
+
+
+    {
+      "question": "2. The geometric growth factor (R) in the discrete population growth model is calculated as:",
+      "answers": {
+        "a": "Birth rate + Death rate",
+        "b": "Birth rate − Death rate",
+        "c": "1 + (Birth rate − Death rate)",
+        "d": "Birth rate × Death rate"
       },
-      "correctAnswer": "a",
+      
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
+
+
+    
     {
-      "question": "This is a Sample Question 2?",
+      "question": "3. What is meant by exponential population growth? ",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Population growth limited by carrying capacity",
+        "b": "Population growth at a constant percentage rate when resources are unlimited",
+        "c": "Population growth controlled by predator abundance",
+        "d": "Population growth that eventually becomes zero"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+ 
+    {
+      "question": "4. During the simulator activity, increasing the continuous growth rate (r) while keeping all other parameters constant would most likely result in:",
+      "answers": {
+        "a": "Slower population growth",
+        "b": "Faster exponential increase in population size",
+        "c": "A decrease in the initial population",
+        "d": "Population extinction"
       },
-      "correctAnswer": "c",
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "5. In the simulator, what is the purpose of changing the initial population size (N₀)?",
+      "answers": {
+        "a": "To modify the carrying capacity",
+        "b": "To change the starting number of individuals in the simulation",
+        "c": "To alter the death rate only",
+        "d": "To change the simulation time interval"
+      },
+     
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
