@@ -3,74 +3,74 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "In a continuous population growth model, population growth is primarily determined by:",
+      "question": "1. Carrying capacity refers to:",
       "answers": {
-        "a": "Carrying capacity (K)",
-        "b": "Instantaneous per capita growth rate (r)",
-        "c": "Competition coefficient (α)",
-        "d": "Colonization rate (c)"
+        "a": "Maximum number of individuals an environment can support",
+        "b": "Minimum number of individuals an environment can support",
+        "c": "Averaged number of individuals an environment can support",
+        "d": "None"
       },
  
-      "correctAnswer": "b",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     },   
 
 
-    {
-      "question": "2. The geometric growth factor (R) in the discrete population growth model is calculated as:",
+     {
+      "question": "2. Satiation refers to:",
       "answers": {
-        "a": "Birth rate + Death rate",
-        "b": "Birth rate − Death rate",
-        "c": "1 + (Birth rate − Death rate)",
-        "d": "Birth rate × Death rate"
+        "a": "Predator reached maximum predation rate",
+        "b": "Predator reached minimum predation rate",
+        "c": "Predator with no predation rate",
+        "d": "None"
       },
       
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
 
 
     
     {
-      "question": "3. What is meant by exponential population growth? ",
+      "question": "3. If frogs have very high carrying capacity, predator becomes:",
       "answers": {
-        "a": "Population growth limited by carrying capacity",
-        "b": "Population growth at a constant percentage rate when resources are unlimited",
-        "c": "Population growth controlled by predator abundance",
-        "d": "Population growth that eventually becomes zero"
+        "a": "easily satiated",
+        "b": "Satiation parameter remains constant",
+        "c": "Does not become easily satiated",
+        "d": "None"
       },
       
-      "correctAnswer": "b",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     },
 
 
  
     {
-      "question": "4. During the simulator activity, increasing the continuous growth rate (r) while keeping all other parameters constant would most likely result in:",
+      "question": "4. Satiation parameter in the equations is represented with:",
       "answers": {
-        "a": "Slower population growth",
-        "b": "Faster exponential increase in population size",
-        "c": "A decrease in the initial population",
-        "d": "Population extinction"
+        "a": "a",
+        "b": "b",
+        "c": "d",
+        "d": "c"
       },
       
-      "correctAnswer": "b",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
 
 
 
     {
-      "question": "5. In the simulator, what is the purpose of changing the initial population size (N₀)?",
+      "question": "5. What happens if prey exceeds its carrying capacity?",
       "answers": {
-        "a": "To modify the carrying capacity",
-        "b": "To change the starting number of individuals in the simulation",
-        "c": "To alter the death rate only",
-        "d": "To change the simulation time interval"
+        "a": "The system cannot sustain the species",
+        "b": "The population of the prey decreases gradually",
+        "c": "No change will happen in the system",
+        "d": "None"
       },
      
-      "correctAnswer": "b",
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
