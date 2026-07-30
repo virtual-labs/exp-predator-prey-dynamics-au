@@ -3,12 +3,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "In a continuous population growth model, population growth is primarily determined by:",
+      "question": "1. In predator–prey interactions, satiation refers to:",
       "answers": {
-        "a": "Carrying capacity (K)",
-        "b": "Instantaneous per capita growth rate (r)",
-        "c": "Competition coefficient (α)",
-        "d": "Colonization rate (c)"
+        "a": "The maximum growth rate of the prey",
+        "b": "The point at which predators are no longer motivated to hunt additional prey",
+        "c": "The extinction of predators",
+        "d": "The carrying capacity of predators"
       },
  
       "correctAnswer": "b",
@@ -17,12 +17,27 @@
 
 
     {
-      "question": "2. The geometric growth factor (R) in the discrete population growth model is calculated as:",
+      "question": "2. According to the theory, increasing the prey carrying capacity generally has what effect on predators?",
       "answers": {
-        "a": "Birth rate + Death rate",
-        "b": "Birth rate − Death rate",
-        "c": "1 + (Birth rate − Death rate)",
-        "d": "Birth rate × Death rate"
+        "a": "Decreases prey availability",
+        "b": "Increases the likelihood that predators reach satiation",
+        "c": "Reduces predator survival immediately",
+        "d": "Causes prey extinction"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+    
+    {
+      "question": "3. Which parameter in the simulator represents the carrying capacity of the prey population?",
+      "answers": {
+        "a": "r",
+        "b": "a",
+        "c": "K",
+        "d": "e"
       },
       
       "correctAnswer": "c",
@@ -30,29 +45,14 @@
     },
 
 
-    
-    {
-      "question": "3. What is meant by exponential population growth? ",
-      "answers": {
-        "a": "Population growth limited by carrying capacity",
-        "b": "Population growth at a constant percentage rate when resources are unlimited",
-        "c": "Population growth controlled by predator abundance",
-        "d": "Population growth that eventually becomes zero"
-      },
-      
-      "correctAnswer": "b",
-      "difficulty": "beginner"
-    },
-
-
  
     {
-      "question": "4. During the simulator activity, increasing the continuous growth rate (r) while keeping all other parameters constant would most likely result in:",
+      "question": "4. During the simulation, if the predator population reaches satiation while prey availability continues to increase, what is the most likely outcome?",
       "answers": {
-        "a": "Slower population growth",
-        "b": "Faster exponential increase in population size",
-        "c": "A decrease in the initial population",
-        "d": "Population extinction"
+        "a": "Predation rate continues increasing without limit",
+        "b": "Predator feeding rate approaches a maximum despite increasing prey density",
+        "c": "Prey immediately become extinct",
+        "d": "Predator population instantly doubles"
       },
       
       "correctAnswer": "b",
@@ -62,12 +62,12 @@
 
 
     {
-      "question": "5. In the simulator, what is the purpose of changing the initial population size (N₀)?",
+      "question": "5. What is meant by the carrying capacity (K) of a prey population?",
       "answers": {
-        "a": "To modify the carrying capacity",
-        "b": "To change the starting number of individuals in the simulation",
-        "c": "To alter the death rate only",
-        "d": "To change the simulation time interval"
+        "a": "The maximum number of predators an environment can support",
+        "b": "The maximum sustainable prey population supported by the environment",
+        "c": "The predator birth rate",
+        "d": "The prey death rate"
       },
      
       "correctAnswer": "b",
