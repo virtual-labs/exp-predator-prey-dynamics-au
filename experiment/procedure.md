@@ -128,3 +128,4 @@
 * Download the graphical output by clicking the PNG button or export the numerical simulation data by clicking the CSV button for further analysis and documentation.
 
 * Repeat the above procedure using different combinations of functional response models, carrying capacity, predator satiation limits, attack rates, and other ecological parameters to compare their effects on predator–prey population dynamics, oscillatory behaviour, and system stability.
+
