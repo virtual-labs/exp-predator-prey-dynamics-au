@@ -12,3 +12,20 @@ Having said that, let us look into the example of snakes hunting down frogs. The
 
 While considering satiation parameter in the predator, another important factor needs to be considered. The predator on reaching satiation may not hunt down the prey, but can store the prey for future consumption. Considering all these dynamics, imagine that you would like to increase the population density of a certain snake species. The next obvious thing for achieve this is to increase the frog species population in that environment. You can simulate these dynamics using mathematical equations to test before proceeding to the actual field.
 
+&nbsp;
+
+
+Here are two different scenarios:
+
+1. Increasing prey carrying capacity when the predator is not satiated.
+
+2. Increasing prey carrying capacity when the predator is satiated.
+
+We use the same logistic equations for the prey and predator as like in previous simulators. The prey dynamics is regulated by the equation:
+
+<p align="center">
+<img src="images/t1.png" title="" />
+</p>
+ 
+&nbsp;
+
