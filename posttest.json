@@ -1,0 +1,77 @@
+
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. In predator–prey interactions, satiation refers to:",
+      "answers": {
+        "a": "The maximum growth rate of the prey",
+        "b": "The point at which predators are no longer motivated to hunt additional prey",
+        "c": "The extinction of predators",
+        "d": "The carrying capacity of predators"
+      },
+ 
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },   
+
+
+    {
+      "question": "2. According to the theory, increasing the prey carrying capacity generally has what effect on predators?",
+      "answers": {
+        "a": "Decreases prey availability",
+        "b": "Increases the likelihood that predators reach satiation",
+        "c": "Reduces predator survival immediately",
+        "d": "Causes prey extinction"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+    
+    {
+      "question": "3. Which parameter in the simulator represents the carrying capacity of the prey population?",
+      "answers": {
+        "a": "r",
+        "b": "a",
+        "c": "K",
+        "d": "e"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+
+
+ 
+    {
+      "question": "4. During the simulation, if the predator population reaches satiation while prey availability continues to increase, what is the most likely outcome?",
+      "answers": {
+        "a": "Predation rate continues increasing without limit",
+        "b": "Predator feeding rate approaches a maximum despite increasing prey density",
+        "c": "Prey immediately become extinct",
+        "d": "Predator population instantly doubles"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "5. What is meant by the carrying capacity (K) of a prey population?",
+      "answers": {
+        "a": "The maximum number of predators an environment can support",
+        "b": "The maximum sustainable prey population supported by the environment",
+        "c": "The predator birth rate",
+        "d": "The prey death rate"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

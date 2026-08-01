@@ -1,0 +1,77 @@
+
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Carrying capacity refers to:",
+      "answers": {
+        "a": "Maximum number of individuals an environment can support",
+        "b": "Minimum number of individuals an environment can support",
+        "c": "Averaged number of individuals an environment can support",
+        "d": "None"
+      },
+ 
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },   
+
+
+     {
+      "question": "2. Satiation refers to:",
+      "answers": {
+        "a": "Predator reached maximum predation rate",
+        "b": "Predator reached minimum predation rate",
+        "c": "Predator with no predation rate",
+        "d": "None"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+
+
+    
+    {
+      "question": "3. If frogs have very high carrying capacity, predator becomes:",
+      "answers": {
+        "a": "easily satiated",
+        "b": "Satiation parameter remains constant",
+        "c": "Does not become easily satiated",
+        "d": "None"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+
+
+ 
+    {
+      "question": "4. Satiation parameter in the equations is represented with:",
+      "answers": {
+        "a": "a",
+        "b": "b",
+        "c": "d",
+        "d": "c"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+
+
+
+    {
+      "question": "5. What happens if prey exceeds its carrying capacity?",
+      "answers": {
+        "a": "The system cannot sustain the species",
+        "b": "The population of the prey decreases gradually",
+        "c": "No change will happen in the system",
+        "d": "None"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
